@@ -48,7 +48,7 @@ export default function Home() {
           <p class="mainHeading__preTitle">Hello,my name is Jeshua Estevez</p>
           <h2 class="mainHeading__title">I make web sites</h2>
           <p class="mainHeading__description">
-          I’m a front-end developer
+          I’m a front-end coder
           </p>
        </article>
  

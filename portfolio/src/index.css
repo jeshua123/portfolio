@@ -187,8 +187,7 @@ code {
 	 transform: translateY(0px);
 }
  .mainNav__link:hover {
-	 transform: translateY(-5px);
-	 box-shadow: inset 0px -20px 0px white;
+	 box-shadow:-2px 15px 0px -1px rgb(255,82,119);;
 }
  .mainNav__icon {
 	 background-image: url(https://rafaelalucas91.github.io/assets/icons/black/icon-141.svg);

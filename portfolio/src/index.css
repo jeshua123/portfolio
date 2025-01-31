@@ -7,6 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #0E141B;
   font-family: "Raleway", sans-serif;
+  color: #ffffff;
 
 }
 
@@ -187,7 +188,7 @@ code {
 	 transform: translateY(0px);
 }
  .mainNav__link:hover {
-	 box-shadow:-2px 15px 0px -1px rgb(255,82,119);;
+	 box-shadow:-2px 10px 0px -1px rgb(255,82,119);;
 }
  .mainNav__icon {
 	 background-image: url(https://rafaelalucas91.github.io/assets/icons/black/icon-141.svg);
@@ -231,12 +232,11 @@ code {
 }
  .mainHeading__text {
 	 z-index: 1;
-	 color: #637498;
 	 background-color: rgba(255, 255, 255, 0.2);
 	 padding: 40px;
-	 max-width: 620px;
+	 max-width: 1620px;
 	 margin-top: 100px;
-	 width: 70%;
+	 width: 100%;
 	 backdrop-filter: blur(8px);
 	 animation: text 0.8s 0.6s ease backwards;
 	 position: relative;
@@ -275,15 +275,14 @@ code {
 	 font-weight: 600;
 	 letter-spacing: 2px;
 	 margin-bottom: 16px;
-	 color: #637498;
+	 color: rgb(255,82,119);
 }
  .mainHeading__title {
 	 text-transform: uppercase;
-	 font-weight: 200;
+	 font-weight: 500;
 	 letter-spacing: 2px;
 	 margin-bottom: 24px;
-	 font-size: 40px;
-	 color: #637498;
+	 font-size: 80px;
 }
  @media screen and (max-width: 799px) {
 	 .mainHeading__title {
@@ -378,4 +377,8 @@ code {
 		 margin-top: 16px;
 	}
 }
- 
+
+h1 {
+    font-weight: 500;
+
+}

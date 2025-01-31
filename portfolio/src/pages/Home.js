@@ -46,7 +46,7 @@ export default function Home() {
     <div class="mainHeading__content">
        <article class="mainHeading__text">
           <p class="mainHeading__preTitle">Hello,my name is Jeshua Estevez</p>
-          <h2 class="mainHeading__title">I make web sites</h2>
+          <h1 class="mainHeading__title">I make web sites</h1>
           <p class="mainHeading__description">
           I’m a front-end coder
           </p>

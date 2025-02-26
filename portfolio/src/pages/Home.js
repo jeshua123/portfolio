@@ -16,7 +16,7 @@ export default function Home() {
  </div>
  
  <nav class="mainNav">
-    <div class="mainNav__logo">Logo</div>
+    <div class="mainNav__logo">Jeshua's portfolio </div>
     <div class="mainNav__links">
        <a href="1" class="mainNav__link">01 home</a>
        <a href="2" class="mainNav__link">02 projects</a>

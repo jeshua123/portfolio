@@ -1,6 +1,9 @@
 import React from 'react'
 
 export default function Home() {
+function thisExample (e) {
+return console.log(e)
+}
   return (
     <div><div class="about">
     <a class="bg_links social portfolio" href="https://www.rafaelalucas.com" target="_blank">
@@ -17,9 +20,10 @@ export default function Home() {
  
  <nav class="mainNav">
     <div class="mainNav__logo">Jeshua's portfolio 
+
     </div>
     <div class="mainNav__links">
-       <a href="1" class="mainNav__link">01 home</a>
+       <a  href="1" class="mainNav__link">01 home</a>
        <a href="2" class="mainNav__link">02 projects</a>
        <a href="3" class="mainNav__link">03 about</a>
        <a href="4" class="mainNav__link"> 04 contacts</a>
@@ -46,16 +50,17 @@ export default function Home() {
  <header class="mainHeading">
     <div class="mainHeading__content">
        <article class="mainHeading__text">
-          <p class="mainHeading__preTitle">Hello,my name is Jeshua Estevez</p>
+          <p onClick={(e) => { thisExample(e) }}class="mainHeading__preTitle">Hello,my name is Jeshua Estevez</p>
           <h1 class="mainHeading__title">I make web sites</h1>
           <p class="mainHeading__description">
           I’m a front-end old coder
           </p>
        </article>
  
-
-    </div>
+           </div>
  </header>
  </div>
   )
+
+
 }

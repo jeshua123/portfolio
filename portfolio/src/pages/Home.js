@@ -1,9 +1,8 @@
 import React from 'react'
 
 export default function Home() {
-function thisExample (e) {
-return console.log(e)
-}
+   var title = document.getElementById("title");
+console.log(title)
   return (
     <div><div class="about">
     <a class="bg_links social portfolio" href="https://www.rafaelalucas.com" target="_blank">
@@ -50,7 +49,7 @@ return console.log(e)
  <header class="mainHeading">
     <div class="mainHeading__content">
        <article class="mainHeading__text">
-          <p onClick={(e) => { thisExample(e) }}class="mainHeading__preTitle">Hello,my name is Jeshua Estevez</p>
+          <p id="title" class="mainHeading__preTitle">Hello,my name is Jeshua Estevez</p>
           <h1 class="mainHeading__title">I make web sites</h1>
           <p class="mainHeading__description">
           I’m a front-end old coder
